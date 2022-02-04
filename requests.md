@@ -91,13 +91,26 @@ How long before a re-infection a person is vaccinated will inform how quickly th
 #### A - 1st dose 
 I am making a request for the data set of: the total number of COVID-19 cases, WHERE individuals: had a not-vaccinated status; and had a confirmed symptomatic first infection; and recieved a vaccination after their first infection was confirmed; and recovered from their first infection; and then had a confirmed, symptomatic re-infection... GROUPED BY time between administration of vaccination and the date the re-infection was confirmed.
 
-#### A - 2nd dose 
+#### B - 2nd dose 
 I am making a request for the data set of: the total number of COVID-19 cases, WHERE individuals: had a single-dose vaccination status; and had a confirmed symptomatic first infection; and recieved a second dose of vaccination after their first infection was confirmed; and recovered from their first infection; and then had a confirmed, symptomatic re-infection... GROUPED BY time between administration of second vaccination and the date the re-infection was confirmed.
 
-
-#### A - 3rd dose 
+#### C - 3rd dose 
 I am making a request for the data set of: the total number of COVID-19 cases, WHERE individuals: had a two-dose vaccination status; and had a confirmed symptomatic first infection; and recieved a third dose of vaccination after their first infection was confirmed; and recovered from their first infection; and then had a confirmed, symptomatic re-infection... GROUPED BY time between administration of third vaccination and the date the re-infection was confirmed.
 
-
-#### A - 4th dose 
+#### D - 4th dose 
 I am making a request for the data set of: the total number of COVID-19 cases, WHERE individuals: had a three-dose vaccination status; and had a confirmed symptomatic first infection; and recieved a fourth dose of vaccination after their first infection was confirmed; and recovered from their first infection; and then had a confirmed, symptomatic re-infection... GROUPED BY time between administration of fourth vaccination and the date the re-infection was confirmed.
+
+### 8 - Time after vaccination infections
+This will allow background context for section 7 requests; namely any infections of vaccinated individuals and approximate time between vaccination and infection.
+
+#### A - 1st vaccination
+I am making a request for the data set of: the total number of confirmed, symptomatic COVID-19 cases, WHERE individuals had reveieved 1 dose of vaccination; GROUP BY time between vaccine does administered and positive test result.
+
+#### B - 2nd vaccination
+I am making a request for the data set of: the total number of confirmed, symptomatic COVID-19 cases, WHERE individuals had reveieved 2 doses of vaccination; GROUP BY time between vaccine does administered and postive test result.
+
+#### C - 3rd vaccination
+I am making a request for the data set of: the total number of confirmed, symptomatic COVID-19 cases, WHERE individuals had reveieved 3 doses of vaccination; GROUP BY time between vaccine does administered and postive test result.
+
+#### D - 4th vaccination
+I am making a request for the data set of: the total number of confirmed, symptomatic COVID-19 cases, WHERE individuals had reveieved 4 doses of vaccination; GROUP BY time between vaccine does administered and postive test result.
