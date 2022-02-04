@@ -41,3 +41,9 @@ Expect to see an increase of effectiveness the more vaccine doses are administer
 
 #### Request Section 9/10  - Decreasing Severity Clarification
 People are infected with COVID once should have a decrease in severity of outcome upon re-infection.
+
+#### Request Section 11 - PCR testing cycle threshold
+Higher cycle threshold means lower viral load, vaccines should be expected to decrease viral load
+ - a) Vaccine dose and cycle threshold of positive case should have a direct relationship 
+ - b) Vaccine dose and cycle threshold of negative case should have an inverse relationship
+ - c)

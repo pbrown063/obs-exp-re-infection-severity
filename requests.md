@@ -163,3 +163,12 @@ Please consider my request for the data set: the total number of confirmed COVID
 #### F - Symptomatic -> Asymptomatic
 Please consider my request for the data set: the total number of confirmed COVID-19 re-infection cases, WHERE the first infection was symptomatic AND the second was asymptomatic; GROUP BY number of vaccine doses.
 
+### 11 - PCR Testing Threshold
+#### A - Positive test results by cycle threshold and vaccine does
+Please consider my request for the data set: the total number of positive PCR test results for COVID, RESOLVED BY the cycle threshold of the positive test; GROUP BY number of vaccine doses.
+
+#### B - Negative test results by cycle threshold and vaccine does
+Please consider my request for the data set: the total number of negative PCR test results for COVID, RESOLVED BY the cycle threshold of the positive test; GROUP BY number of vaccine doses.
+
+#### C - Positive test results by cycle threshold and severity
+Please consider my request for the data set: the total number of positive PCR test results for COVID, RESOLVED BY the cycle threshold of the positive test; GROUP BY severity of case.
